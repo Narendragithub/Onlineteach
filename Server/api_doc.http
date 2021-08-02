@@ -1,0 +1,21 @@
+GET http://localhost:3000/
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmU0Mzg3YWNlZGI1MDFiNTA4MjBmMTciLCJpYXQiOjE2MDkzMTMxMTgsImV4cCI6MTYwOTMxMzEyOH0.x6FaRQtynsZy6Psrk_VDuJ1mZU6S4Uhj9PHDt2q8PG8
+###Signup route
+POST  http://localhost:3000/api/signup
+content-type: application/json
+
+{
+	"first_name":"narendra",
+	"last_name":"rajput",
+	"email":"rajputnarendra621@gmail.com",
+	"password":"12345"
+}
+
+###Login Route
+POST http://localhost:3000/api/authenticate
+content-type: application/json
+
+{
+	"email":"namrendra@gmail.com",
+	"password":"12345"
+}

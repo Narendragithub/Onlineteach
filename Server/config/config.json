@@ -1,0 +1,16 @@
+{
+    "development": {
+        "PORT": 3000,
+        "Server_URL": "http://localhost:3000",
+        "ForgotPasswordLink": "",
+        "Server_IP": "",
+        "Web_Link": "",
+        "MONGODB_URI": "mongodb://localhost:27017/onlineteach",
+        "JWT_TOKEN_SECRET": "SECRET#123",
+        "JWT_REFRESH_SECRET": "REFRESH#123",
+        "JWT_EXP": "10s"
+    },
+    "production": {
+        "PORT": 9080
+    }
+}
